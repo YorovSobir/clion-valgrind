@@ -1,5 +1,11 @@
 package ru.spbau.devdays.clionvalgrind.parser.errors;
 
+import com.intellij.execution.filters.RegexpFilter;
+import com.intellij.openapi.editor.Editor;
+import com.intellij.openapi.editor.EditorFactory;
+import com.intellij.openapi.editor.actionSystem.EditorActionManager;
+import com.intellij.openapi.editor.impl.EditorFactoryImpl;
+
 import javax.swing.*;
 import javax.swing.tree.DefaultMutableTreeNode;
 import java.io.IOException;
@@ -28,6 +34,8 @@ public class ErrorNode {
     public DefaultMutableTreeNode getTree() {
         DefaultMutableTreeNode root = new DefaultMutableTreeNode(what);
         StringBuilder sb = new StringBuilder();
+//        EditorFactory editorFactory = new EditorFactoryImpl(EditorActionManager.getInstance());
+
         for (int i = 0; i < funcList.size(); i++) {
             sb.append(funcList.get(i));
             sb.append(" in ");

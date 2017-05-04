@@ -2,6 +2,8 @@ package ru.spbau.devdays.clionvalgrind.results;
 
 import com.intellij.execution.filters.Filter;
 import com.intellij.execution.filters.HyperlinkInfo;
+import com.intellij.execution.filters.RegexpFilter;
+import com.intellij.execution.impl.EditorHyperlinkSupport;
 import com.intellij.execution.process.ProcessHandler;
 import com.intellij.execution.ui.ConsoleView;
 import com.intellij.execution.ui.ConsoleViewContentType;
@@ -11,9 +13,11 @@ import com.intellij.openapi.editor.Document;
 import com.intellij.openapi.editor.Editor;
 import com.intellij.openapi.editor.EditorFactory;
 import com.intellij.openapi.editor.actionSystem.EditorActionManager;
+import com.intellij.openapi.editor.ex.EditorEx;
 import com.intellij.openapi.editor.impl.DocumentImpl;
 import com.intellij.openapi.editor.impl.EditorFactoryImpl;
 import com.intellij.openapi.editor.impl.EditorImpl;
+import com.intellij.openapi.keymap.impl.ui.Hyperlink;
 import com.intellij.openapi.project.Project;
 import com.intellij.openapi.util.Disposer;
 import com.intellij.ui.*;
@@ -33,10 +37,13 @@ import ru.spbau.devdays.clionvalgrind.parser.errors.Error;
 import ru.spbau.devdays.clionvalgrind.parser.errors.ErrorsHolder;
 
 import javax.swing.*;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
 import javax.swing.table.TableColumn;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.TreeCellRenderer;
 import java.awt.*;
+import java.awt.event.MouseEvent;
 import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
@@ -56,6 +63,9 @@ public class ValgrindConsoleView implements ConsoleView {
     private @NotNull final Project project;
     private @NotNull final ConsoleView console;
     private @NotNull final ErrorsHolder errors;
+//    private @NotNull final Editor errorsEditor;
+
+    private EditorHyperlinkSupport hyperlinks;
 
 //    private static final int CONSOLE_COLUMN_MIN_WIDTH = 300;
 //    private static final int ERRORS_COLUMN_MIN_WIDTH  = 300;
@@ -70,15 +80,51 @@ public class ValgrindConsoleView implements ConsoleView {
 
         JTree tree = new Tree(errors.getTree());
         tree.add(new JScrollBar(Adjustable.HORIZONTAL));
-//        tree.add("hello", new JLabel("world"));
-//        String tmp = errors.toString();
-//        EditorFactory editorFactory = new EditorFactoryImpl(EditorActionManager.getInstance());
-//        Editor errorsEditor = editorFactory.createViewer(editorFactory.createDocument(tmp), project);
-
-        // todo: uncomment when troubles with xml resolved
-//        EditorImpl text = new EditorImpl(new DocumentImpl(allErrors), true, project);
 
         mainPanel.setSecondComponent(tree);
+
+//        tree.getSelectionModel().addTreeSelectionListener(new TreeSelectionListener() {
+//            @Override
+//            public void valueChanged(TreeSelectionEvent e) {
+//                DefaultMutableTreeNode selectNode =
+//                        (DefaultMutableTreeNode) tree.getLastSelectedPathComponent();
+//
+//                Hyperlink link = new Hyperlink(selectNode.toString()) {
+//                    @Override
+//                    public void onClick(MouseEvent event) {
+//
+//                    }
+//                };
+//
+//            //                RegexpFilter fileRefsFilter = new RegexpFilter(project, ".*?$FILE_PATH$:$LINE$");
+//                // todo: crazy shit ):
+////                hyperlinks = new EditorHyperlinkSupport(selectNode, project);
+////                hyperlinks.highlightHyperlinks(fileRefsFilter, 0,1);
+//
+//            }
+//        });
+
+//        // todo: fix when ErrorsHolder becomes Iterable
+//        String allErrors = errors.errorList
+//                .stream()
+//                .map(Error::getKind)
+//                .collect(Collectors.joining("\n"));
+//
+//        allErrors = "/home/bronti/all/au/devDays/test/cpptest/main.cpp:5\n\n\n";
+//
+//        EditorFactory editorFactory = new EditorFactoryImpl(EditorActionManager.getInstance());
+//
+//        RegexpFilter fileRefsFilter = new RegexpFilter(project, "$FILE_PATH$:$LINE$");
+//        // todo: crazy shit ):
+//        errorsEditor = editorFactory.createViewer(editorFactory.createDocument(allErrors), project);
+//        errorsEditor.setHeaderComponent(tree);
+//        hyperlinks = new EditorHyperlinkSupport(errorsEditor, project);
+//        hyperlinks.highlightHyperlinks(fileRefsFilter, 0,1);
+
+//        ValgrindErrorsConsoleView errorsView = new ValgrindErrorsConsoleView(project, allErrors);
+
+
+
 //        mainPanel.setSecondComponent(errorsEditor.getComponent());
     }
 
@@ -88,7 +134,9 @@ public class ValgrindConsoleView implements ConsoleView {
     }
 
     @Override
-    public void dispose() {}
+    public void dispose() {
+        hyperlinks = null;
+    }
 
     @Override
     public void print(@NotNull String s, @NotNull ConsoleViewContentType contentType) {}
