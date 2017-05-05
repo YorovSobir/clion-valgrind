@@ -46,15 +46,6 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Created by bronti on 03.05.17.
- */
-//public class ValgrindConsoleView extends DuplexConsoleView<ConsoleView, ConsoleView> {
-//    public ValgrindConsoleView(final Project project, ConsoleView consoleView) {
-//        super(consoleView, TextConsoleBuilderFactory.getInstance().createBuilder(project).getConsole());
-//    }
-//}
-
 public class ValgrindConsoleView implements ConsoleView {
 
     private static final String DEFAULT_ERRORS_TEXT = "Nothing to show yet.\n";
