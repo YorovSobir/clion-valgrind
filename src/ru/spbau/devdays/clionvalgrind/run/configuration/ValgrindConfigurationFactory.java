@@ -6,9 +6,6 @@ import com.intellij.execution.configurations.RunConfiguration;
 import com.intellij.openapi.project.Project;
 import org.jetbrains.annotations.NotNull;
 
-/**
- * Created by bronti on 02.05.17.
- */
 public class ValgrindConfigurationFactory extends ConfigurationFactory {
     private static final String FACTORY_NAME = "Valgrind configuration factory";
 

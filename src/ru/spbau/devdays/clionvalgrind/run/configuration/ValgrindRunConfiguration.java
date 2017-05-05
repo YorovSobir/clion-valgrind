@@ -72,8 +72,7 @@ public class ValgrindRunConfiguration extends RunConfigurationBase {
 
     private RunProfileState createCommandLineState(@NotNull ExecutionEnvironment executionEnvironment,
                                                    GeneralCommandLine commandLine) {
-        // todo: only run/debug/wcoverage
-        // todo: String -> Path
+
         String pathToExecutable = getBuildDir() + "/" + executionEnvironment.getProject().getName();
         String pathToXml = getBuildDir() + "/" + executionEnvironment.getProject().getName() + "-valgrind-results.xml";
         GeneralCommandLine cl = new GeneralCommandLine("valgrind", "--leak-check=full",
