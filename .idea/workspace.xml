@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404667e9-6b4a-4b76-aede-c7d8a6a0010d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/clion-valgrind.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bronti.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" afterPath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" />
     </list>
     <list id="8a67a2fe-393f-4297-9a60-8794067d6015" name="Rejected commit: Default" comment="simple action added" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -31,27 +23,34 @@
       <file leaf-file-name="ValgrindRunConfiguration.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfiguration.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
+            <state relative-caret-position="1440">
               <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1493972668844" expanded="true" signature="3420:3688" ph="{...}" />
+                <marker date="1493975786991" expanded="true" signature="3420:3688" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ValgrindConsoleView.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ValgrindConsoleView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+            <state relative-caret-position="277">
+              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#5514#5515#0" expanded="true" />
-                <element signature="e#5546#5547#0" expanded="true" />
-                <element signature="e#5589#5590#0" expanded="true" />
-                <element signature="e#5622#5623#0" expanded="true" />
+                <marker date="1493975847839" expanded="false" signature="3117:3128" ph=" { " />
+                <marker date="1493975847839" expanded="false" signature="3145:3151" ph=" }" />
+                <marker date="1493975847839" expanded="false" signature="3192:3203" ph=" { " />
+                <marker date="1493975847839" expanded="false" signature="3221:3227" ph=" }" />
+                <marker date="1493975847839" expanded="false" signature="3667:3678" ph=" { " />
+                <marker date="1493975847839" expanded="false" signature="3691:3697" ph=" }" />
+                <marker date="1493975847839" expanded="false" signature="3751:3762" ph=" { " />
+                <marker date="1493975847839" expanded="false" signature="3775:3781" ph=" }" />
+                <marker date="1493975847839" expanded="false" signature="4196:4207" ph=" { " />
+                <marker date="1493975847839" expanded="false" signature="4216:4222" ph=" }" />
+                <marker date="1493975847839" expanded="false" signature="4267:4278" ph=" { " />
+                <marker date="1493975847839" expanded="false" signature="4291:4297" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -60,7 +59,7 @@
       <file leaf-file-name="ValgrindRunConfigurationType.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfigurationType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="480">
               <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding />
             </state>
@@ -70,7 +69,7 @@
       <file leaf-file-name="ValgrindCommandLineState.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/ValgrindCommandLineState.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="480">
               <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
               <folding />
             </state>
@@ -80,8 +79,8 @@
       <file leaf-file-name="plugin.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+            <state relative-caret-position="520">
+              <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -94,11 +93,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="360">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -107,7 +106,7 @@
       <file leaf-file-name="ValgrindSettingsEditor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindSettingsEditor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="220">
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
               <folding />
             </state>
@@ -117,15 +116,15 @@
       <file leaf-file-name="ValgrindConfigurationFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindConfigurationFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="80">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <marker date="1493972668844" expanded="false" signature="562:573" ph=" { " />
-                <marker date="1493972668844" expanded="false" signature="585:591" ph=" }" />
-                <marker date="1493972668844" expanded="true" signature="597:619" ph="@{...}" />
-                <marker date="1493972668844" expanded="true" signature="702:781" ph="{...}" />
-                <marker date="1493972668844" expanded="false" signature="824:835" ph=" { " />
-                <marker date="1493972668844" expanded="false" signature="855:861" ph=" }" />
+                <marker date="1493975786991" expanded="false" signature="562:573" ph=" { " />
+                <marker date="1493975786991" expanded="false" signature="585:591" ph=" }" />
+                <marker date="1493975786991" expanded="true" signature="597:619" ph="@{...}" />
+                <marker date="1493975786991" expanded="true" signature="702:781" ph="{...}" />
+                <marker date="1493975786991" expanded="false" signature="824:835" ph=" { " />
+                <marker date="1493975786991" expanded="false" signature="855:861" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -134,9 +133,14 @@
       <file leaf-file-name="ValgrindRunConsoleBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="620">
-              <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-              <folding />
+            <state relative-caret-position="800">
+              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+              <folding>
+                <marker date="1493975786991" expanded="true" signature="1686:1693" ph="{...}" />
+                <marker date="1493975786991" expanded="false" signature="1764:1775" ph=" { " />
+                <marker date="1493975786991" expanded="false" signature="1797:1803" ph=" }" />
+                <marker date="1493975786991" expanded="true" signature="1863:1870" ph="{...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -199,11 +203,11 @@
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/parser/errors/Error.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/parser/errors/ErrorsHolder.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/parser/errors/ErrorNode.java" />
-        <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfiguration.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindConfigurationFactory.java" />
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" />
       </list>
     </option>
   </component>
@@ -220,6 +224,7 @@
     <option name="width" value="1301" />
     <option name="height" value="772" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -235,6 +240,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -401,7 +407,6 @@
       </pane>
       <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -701,9 +706,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993808" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39979124" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -711,8 +716,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32985386" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23505977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22948207" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1090,55 +1094,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="78" column="28" lean-forward="false" selection-start-line="78" selection-start-column="28" selection-end-line="78" selection-end-column="28" />
+        <state relative-caret-position="277">
+          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#5514#5515#0" expanded="true" />
-            <element signature="e#5546#5547#0" expanded="true" />
-            <element signature="e#5589#5590#0" expanded="true" />
-            <element signature="e#5622#5623#0" expanded="true" />
+            <marker date="1493975847839" expanded="false" signature="3117:3128" ph=" { " />
+            <marker date="1493975847839" expanded="false" signature="3145:3151" ph=" }" />
+            <marker date="1493975847839" expanded="false" signature="3192:3203" ph=" { " />
+            <marker date="1493975847839" expanded="false" signature="3221:3227" ph=" }" />
+            <marker date="1493975847839" expanded="false" signature="3667:3678" ph=" { " />
+            <marker date="1493975847839" expanded="false" signature="3691:3697" ph=" }" />
+            <marker date="1493975847839" expanded="false" signature="3751:3762" ph=" { " />
+            <marker date="1493975847839" expanded="false" signature="3775:3781" ph=" }" />
+            <marker date="1493975847839" expanded="false" signature="4196:4207" ph=" { " />
+            <marker date="1493975847839" expanded="false" signature="4216:4222" ph=" }" />
+            <marker date="1493975847839" expanded="false" signature="4267:4278" ph=" { " />
+            <marker date="1493975847839" expanded="false" signature="4291:4297" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="620">
-          <caret line="43" column="45" lean-forward="false" selection-start-line="43" selection-start-column="45" selection-end-line="43" selection-end-column="45" />
-          <folding />
+        <state relative-caret-position="800">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding>
+            <marker date="1493975786991" expanded="true" signature="1686:1693" ph="{...}" />
+            <marker date="1493975786991" expanded="false" signature="1764:1775" ph=" { " />
+            <marker date="1493975786991" expanded="false" signature="1797:1803" ph=" }" />
+            <marker date="1493975786991" expanded="true" signature="1863:1870" ph="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
+        <state relative-caret-position="1440">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1493972668844" expanded="true" signature="3420:3688" ph="{...}" />
+            <marker date="1493975786991" expanded="true" signature="3420:3688" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindConfigurationFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="80">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1493972668844" expanded="false" signature="562:573" ph=" { " />
-            <marker date="1493972668844" expanded="false" signature="585:591" ph=" }" />
-            <marker date="1493972668844" expanded="true" signature="597:619" ph="@{...}" />
-            <marker date="1493972668844" expanded="true" signature="702:781" ph="{...}" />
-            <marker date="1493972668844" expanded="false" signature="824:835" ph=" { " />
-            <marker date="1493972668844" expanded="false" signature="855:861" ph=" }" />
+            <marker date="1493975786991" expanded="false" signature="562:573" ph=" { " />
+            <marker date="1493975786991" expanded="false" signature="585:591" ph=" }" />
+            <marker date="1493975786991" expanded="true" signature="597:619" ph="@{...}" />
+            <marker date="1493975786991" expanded="true" signature="702:781" ph="{...}" />
+            <marker date="1493975786991" expanded="false" signature="824:835" ph=" { " />
+            <marker date="1493975786991" expanded="false" signature="855:861" ph=" }" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindSettingsEditor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="220">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding />
         </state>
@@ -1146,7 +1162,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfigurationType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="480">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
           <folding />
         </state>
@@ -1154,7 +1170,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/ValgrindCommandLineState.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="480">
           <caret line="36" column="25" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding />
         </state>
@@ -1167,16 +1183,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/META-INF/plugin.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="40" column="14" lean-forward="false" selection-start-line="40" selection-start-column="14" selection-end-line="40" selection-end-column="14" />
+        <state relative-caret-position="520">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="360">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
       </provider>

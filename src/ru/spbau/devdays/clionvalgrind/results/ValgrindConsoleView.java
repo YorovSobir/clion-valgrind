@@ -48,27 +48,14 @@ import java.util.Arrays;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-/**
- * Created by bronti on 03.05.17.
- */
-//public class ValgrindConsoleView extends DuplexConsoleView<ConsoleView, ConsoleView> {
-//    public ValgrindConsoleView(final Project project, ConsoleView consoleView) {
-//        super(consoleView, TextConsoleBuilderFactory.getInstance().createBuilder(project).getConsole());
-//    }
-//}
-
 public class ValgrindConsoleView implements ConsoleView {
 
     private @NotNull final JBSplitter mainPanel;
     private @NotNull final Project project;
     private @NotNull final ConsoleView console;
     private @NotNull final ErrorsHolder errors;
-//    private @NotNull final Editor errorsEditor;
 
     private EditorHyperlinkSupport hyperlinks;
-
-//    private static final int CONSOLE_COLUMN_MIN_WIDTH = 300;
-//    private static final int ERRORS_COLUMN_MIN_WIDTH  = 300;
 
     public ValgrindConsoleView(@NotNull final Project project, @NotNull ConsoleView console, @NotNull ErrorsHolder errors) {
         this.project = project;
@@ -82,50 +69,6 @@ public class ValgrindConsoleView implements ConsoleView {
         tree.add(new JScrollBar(Adjustable.HORIZONTAL));
 
         mainPanel.setSecondComponent(tree);
-
-//        tree.getSelectionModel().addTreeSelectionListener(new TreeSelectionListener() {
-//            @Override
-//            public void valueChanged(TreeSelectionEvent e) {
-//                DefaultMutableTreeNode selectNode =
-//                        (DefaultMutableTreeNode) tree.getLastSelectedPathComponent();
-//
-//                Hyperlink link = new Hyperlink(selectNode.toString()) {
-//                    @Override
-//                    public void onClick(MouseEvent event) {
-//
-//                    }
-//                };
-//
-//            //                RegexpFilter fileRefsFilter = new RegexpFilter(project, ".*?$FILE_PATH$:$LINE$");
-//                // todo: crazy shit ):
-////                hyperlinks = new EditorHyperlinkSupport(selectNode, project);
-////                hyperlinks.highlightHyperlinks(fileRefsFilter, 0,1);
-//
-//            }
-//        });
-
-//        // todo: fix when ErrorsHolder becomes Iterable
-//        String allErrors = errors.errorList
-//                .stream()
-//                .map(Error::getKind)
-//                .collect(Collectors.joining("\n"));
-//
-//        allErrors = "/home/bronti/all/au/devDays/test/cpptest/main.cpp:5\n\n\n";
-//
-//        EditorFactory editorFactory = new EditorFactoryImpl(EditorActionManager.getInstance());
-//
-//        RegexpFilter fileRefsFilter = new RegexpFilter(project, "$FILE_PATH$:$LINE$");
-//        // todo: crazy shit ):
-//        errorsEditor = editorFactory.createViewer(editorFactory.createDocument(allErrors), project);
-//        errorsEditor.setHeaderComponent(tree);
-//        hyperlinks = new EditorHyperlinkSupport(errorsEditor, project);
-//        hyperlinks.highlightHyperlinks(fileRefsFilter, 0,1);
-
-//        ValgrindErrorsConsoleView errorsView = new ValgrindErrorsConsoleView(project, allErrors);
-
-
-
-//        mainPanel.setSecondComponent(errorsEditor.getComponent());
     }
 
     @Override
