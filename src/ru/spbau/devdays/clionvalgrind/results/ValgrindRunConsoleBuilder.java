@@ -14,9 +14,6 @@ import ru.spbau.devdays.clionvalgrind.parser.errors.ErrorsHolder;
 
 import java.util.ArrayList;
 
-/**
- * Created by bronti on 03.05.17.
- */
 public class ValgrindRunConsoleBuilder extends TextConsoleBuilder {
     private final Project project;
     private final ArrayList<Filter> myFilters = Lists.newArrayList();

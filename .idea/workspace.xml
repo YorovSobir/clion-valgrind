@@ -4,6 +4,7 @@
     <list default="true" id="404667e9-6b4a-4b76-aede-c7d8a6a0010d" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" afterPath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java" afterPath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java" />
     </list>
     <list id="8a67a2fe-393f-4297-9a60-8794067d6015" name="Rejected commit: Default" comment="simple action added" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,7 +28,7 @@
               <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1493975786991" expanded="true" signature="3420:3688" ph="{...}" />
+                <marker date="1493976960907" expanded="true" signature="3420:3688" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,21 +37,25 @@
       <file leaf-file-name="ValgrindConsoleView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="277">
-              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="-757">
+              <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
               <folding>
-                <marker date="1493975847839" expanded="false" signature="3117:3128" ph=" { " />
-                <marker date="1493975847839" expanded="false" signature="3145:3151" ph=" }" />
-                <marker date="1493975847839" expanded="false" signature="3192:3203" ph=" { " />
-                <marker date="1493975847839" expanded="false" signature="3221:3227" ph=" }" />
-                <marker date="1493975847839" expanded="false" signature="3667:3678" ph=" { " />
-                <marker date="1493975847839" expanded="false" signature="3691:3697" ph=" }" />
-                <marker date="1493975847839" expanded="false" signature="3751:3762" ph=" { " />
-                <marker date="1493975847839" expanded="false" signature="3775:3781" ph=" }" />
-                <marker date="1493975847839" expanded="false" signature="4196:4207" ph=" { " />
-                <marker date="1493975847839" expanded="false" signature="4216:4222" ph=" }" />
-                <marker date="1493975847839" expanded="false" signature="4267:4278" ph=" { " />
-                <marker date="1493975847839" expanded="false" signature="4291:4297" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="3122:3133" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="3150:3156" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="3197:3208" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="3226:3232" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="3672:3683" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="3696:3702" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="3756:3767" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="3780:3786" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="4201:4212" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="4221:4227" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="4272:4283" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="4296:4302" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="4375:4386" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="4414:4420" ph=" }" />
+                <marker date="1493977233235" expanded="false" signature="4544:4555" ph=" { " />
+                <marker date="1493977233235" expanded="false" signature="4593:4599" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -61,7 +66,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="480">
               <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#456#457#0" expanded="false" />
+                <element signature="e#489#490#0" expanded="false" />
+                <element signature="e#558#559#0" expanded="false" />
+                <element signature="e#614#615#0" expanded="false" />
+                <element signature="e#821#822#0" expanded="false" />
+                <element signature="e#872#873#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -108,7 +121,11 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="220">
               <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#934#935#0" expanded="false" />
+                <element signature="e#964#965#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -119,12 +136,12 @@
             <state relative-caret-position="80">
               <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
               <folding>
-                <marker date="1493975786991" expanded="false" signature="562:573" ph=" { " />
-                <marker date="1493975786991" expanded="false" signature="585:591" ph=" }" />
-                <marker date="1493975786991" expanded="true" signature="597:619" ph="@{...}" />
-                <marker date="1493975786991" expanded="true" signature="702:781" ph="{...}" />
-                <marker date="1493975786991" expanded="false" signature="824:835" ph=" { " />
-                <marker date="1493975786991" expanded="false" signature="855:861" ph=" }" />
+                <marker date="1493976960907" expanded="false" signature="562:573" ph=" { " />
+                <marker date="1493976960907" expanded="false" signature="585:591" ph=" }" />
+                <marker date="1493976960907" expanded="true" signature="597:619" ph="@{...}" />
+                <marker date="1493976960907" expanded="true" signature="702:781" ph="{...}" />
+                <marker date="1493976960907" expanded="false" signature="824:835" ph=" { " />
+                <marker date="1493976960907" expanded="false" signature="855:861" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -133,13 +150,11 @@
       <file leaf-file-name="ValgrindRunConsoleBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="800">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+            <state relative-caret-position="60">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
-                <marker date="1493975786991" expanded="true" signature="1686:1693" ph="{...}" />
-                <marker date="1493975786991" expanded="false" signature="1764:1775" ph=" { " />
-                <marker date="1493975786991" expanded="false" signature="1797:1803" ph=" }" />
-                <marker date="1493975786991" expanded="true" signature="1863:1870" ph="{...}" />
+                <element signature="e#1723#1724#0" expanded="true" />
+                <element signature="e#1760#1761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -196,7 +211,6 @@
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/ValgrindCommandLineState.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindExecutionResult.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfigurationType.java" />
-        <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/parser/exception/ParserException.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/parser/Parser.java" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindSettingsEditor.form" />
@@ -208,6 +222,7 @@
         <option value="$PROJECT_DIR$/resources/META-INF/plugin.xml" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" />
+        <option value="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java" />
       </list>
     </option>
   </component>
@@ -1092,47 +1107,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
-          <folding>
-            <marker date="1493975847839" expanded="false" signature="3117:3128" ph=" { " />
-            <marker date="1493975847839" expanded="false" signature="3145:3151" ph=" }" />
-            <marker date="1493975847839" expanded="false" signature="3192:3203" ph=" { " />
-            <marker date="1493975847839" expanded="false" signature="3221:3227" ph=" }" />
-            <marker date="1493975847839" expanded="false" signature="3667:3678" ph=" { " />
-            <marker date="1493975847839" expanded="false" signature="3691:3697" ph=" }" />
-            <marker date="1493975847839" expanded="false" signature="3751:3762" ph=" { " />
-            <marker date="1493975847839" expanded="false" signature="3775:3781" ph=" }" />
-            <marker date="1493975847839" expanded="false" signature="4196:4207" ph=" { " />
-            <marker date="1493975847839" expanded="false" signature="4216:4222" ph=" }" />
-            <marker date="1493975847839" expanded="false" signature="4267:4278" ph=" { " />
-            <marker date="1493975847839" expanded="false" signature="4291:4297" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="800">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <marker date="1493975786991" expanded="true" signature="1686:1693" ph="{...}" />
-            <marker date="1493975786991" expanded="false" signature="1764:1775" ph=" { " />
-            <marker date="1493975786991" expanded="false" signature="1797:1803" ph=" }" />
-            <marker date="1493975786991" expanded="true" signature="1863:1870" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/run/configuration/ValgrindRunConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1440">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1493975786991" expanded="true" signature="3420:3688" ph="{...}" />
+            <marker date="1493976960907" expanded="true" signature="3420:3688" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1142,12 +1123,12 @@
         <state relative-caret-position="80">
           <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
-            <marker date="1493975786991" expanded="false" signature="562:573" ph=" { " />
-            <marker date="1493975786991" expanded="false" signature="585:591" ph=" }" />
-            <marker date="1493975786991" expanded="true" signature="597:619" ph="@{...}" />
-            <marker date="1493975786991" expanded="true" signature="702:781" ph="{...}" />
-            <marker date="1493975786991" expanded="false" signature="824:835" ph=" { " />
-            <marker date="1493975786991" expanded="false" signature="855:861" ph=" }" />
+            <marker date="1493976960907" expanded="false" signature="562:573" ph=" { " />
+            <marker date="1493976960907" expanded="false" signature="585:591" ph=" }" />
+            <marker date="1493976960907" expanded="true" signature="597:619" ph="@{...}" />
+            <marker date="1493976960907" expanded="true" signature="702:781" ph="{...}" />
+            <marker date="1493976960907" expanded="false" signature="824:835" ph=" { " />
+            <marker date="1493976960907" expanded="false" signature="855:861" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -1156,7 +1137,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#934#935#0" expanded="false" />
+            <element signature="e#964#965#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1164,7 +1149,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
           <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#456#457#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="false" />
+            <element signature="e#558#559#0" expanded="false" />
+            <element signature="e#614#615#0" expanded="false" />
+            <element signature="e#821#822#0" expanded="false" />
+            <element signature="e#872#873#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1194,6 +1187,42 @@
         <state relative-caret-position="360">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#1723#1724#0" expanded="true" />
+            <element signature="e#1760#1761#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-757">
+          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+          <folding>
+            <marker date="1493977233235" expanded="false" signature="3122:3133" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="3150:3156" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="3197:3208" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="3226:3232" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="3672:3683" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="3696:3702" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="3756:3767" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="3780:3786" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="4201:4212" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="4221:4227" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="4272:4283" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="4296:4302" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="4375:4386" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="4414:4420" ph=" }" />
+            <marker date="1493977233235" expanded="false" signature="4544:4555" ph=" { " />
+            <marker date="1493977233235" expanded="false" signature="4593:4599" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
