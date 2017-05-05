@@ -71,7 +71,7 @@ public class ValgrindConsoleView implements ConsoleView {
         mainPanel.setSecondComponent(tree);
     }
 
-    
+
     @Override
     public JComponent getComponent() {
         return mainPanel;

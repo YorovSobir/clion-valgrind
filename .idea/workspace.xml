@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="404667e9-6b4a-4b76-aede-c7d8a6a0010d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" afterPath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java" afterPath="$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindRunConsoleBuilder.java" />
     </list>
     <list id="8a67a2fe-393f-4297-9a60-8794067d6015" name="Rejected commit: Default" comment="simple action added" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -37,25 +35,25 @@
       <file leaf-file-name="ValgrindConsoleView.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-757">
-              <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+            <state relative-caret-position="23">
+              <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
               <folding>
-                <marker date="1493977233235" expanded="false" signature="3122:3133" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="3150:3156" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="3197:3208" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="3226:3232" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="3672:3683" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="3696:3702" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="3756:3767" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="3780:3786" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="4201:4212" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="4221:4227" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="4272:4283" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="4296:4302" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="4375:4386" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="4414:4420" ph=" }" />
-                <marker date="1493977233235" expanded="false" signature="4544:4555" ph=" { " />
-                <marker date="1493977233235" expanded="false" signature="4593:4599" ph=" }" />
+                <element signature="e#4269#4270#0" expanded="true" />
+                <element signature="e#4297#4298#0" expanded="true" />
+                <marker date="1493977390959" expanded="false" signature="3118:3129" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="3146:3152" ph=" }" />
+                <marker date="1493977390959" expanded="false" signature="3193:3204" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="3222:3228" ph=" }" />
+                <marker date="1493977390959" expanded="false" signature="3668:3679" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="3692:3698" ph=" }" />
+                <marker date="1493977390959" expanded="false" signature="3752:3763" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="3776:3782" ph=" }" />
+                <marker date="1493977390959" expanded="false" signature="4197:4208" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="4217:4223" ph=" }" />
+                <marker date="1493977390959" expanded="false" signature="4371:4382" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="4410:4416" ph=" }" />
+                <marker date="1493977390959" expanded="false" signature="4540:4551" ph=" { " />
+                <marker date="1493977390959" expanded="false" signature="4589:4595" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -1203,25 +1201,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/ru/spbau/devdays/clionvalgrind/results/ValgrindConsoleView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-757">
-          <caret line="73" column="4" lean-forward="false" selection-start-line="73" selection-start-column="4" selection-end-line="73" selection-end-column="4" />
+        <state relative-caret-position="23">
+          <caret line="120" column="0" lean-forward="true" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
           <folding>
-            <marker date="1493977233235" expanded="false" signature="3122:3133" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="3150:3156" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="3197:3208" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="3226:3232" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="3672:3683" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="3696:3702" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="3756:3767" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="3780:3786" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="4201:4212" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="4221:4227" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="4272:4283" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="4296:4302" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="4375:4386" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="4414:4420" ph=" }" />
-            <marker date="1493977233235" expanded="false" signature="4544:4555" ph=" { " />
-            <marker date="1493977233235" expanded="false" signature="4593:4599" ph=" }" />
+            <element signature="e#4269#4270#0" expanded="true" />
+            <element signature="e#4297#4298#0" expanded="true" />
+            <marker date="1493977390959" expanded="false" signature="3118:3129" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="3146:3152" ph=" }" />
+            <marker date="1493977390959" expanded="false" signature="3193:3204" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="3222:3228" ph=" }" />
+            <marker date="1493977390959" expanded="false" signature="3668:3679" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="3692:3698" ph=" }" />
+            <marker date="1493977390959" expanded="false" signature="3752:3763" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="3776:3782" ph=" }" />
+            <marker date="1493977390959" expanded="false" signature="4197:4208" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="4217:4223" ph=" }" />
+            <marker date="1493977390959" expanded="false" signature="4371:4382" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="4410:4416" ph=" }" />
+            <marker date="1493977390959" expanded="false" signature="4540:4551" ph=" { " />
+            <marker date="1493977390959" expanded="false" signature="4589:4595" ph=" }" />
           </folding>
         </state>
       </provider>
