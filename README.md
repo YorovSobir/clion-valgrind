@@ -5,8 +5,9 @@
 
 ## Как собрать проект
 1. Открыть проект с помощью Intellij IDEA.
-2. Необходимо изменить найстройки Intellij IDEA
-(поэтому добавили в репозиторий настройки IDEA, чтобы Вы не делали все это в ручную)
+2. Проверить, что в качестве sdk проекта указана Intellij Platform Plugin SDK со ссылкой на установочную папку CLion.
+   Запустить проект с конфигурацией Plugin (запустится инстанс CLion'а с подключенным плагином clion-valgrind)
+   (Как это сделать можно посмотреть на http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/setting_up_environment.html)
 3. Запустить проект с конфигурацией **Plugin**.
 4. Ждем запуска CLion. Выполнить шаги из **Запуск valgrind в CLion**
 

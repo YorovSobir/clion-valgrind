@@ -21,10 +21,6 @@ public class ErrorsHolder {
         return errorList.get(i);
     }
 
-//    public List<Integer> getLineNumber() {
-//        return
-//    }
-
     public DefaultMutableTreeNode getTree() {
         DefaultMutableTreeNode root = new DefaultMutableTreeNode(
                     "Valgrind Memory Analyzer finished, " + errorList.size()

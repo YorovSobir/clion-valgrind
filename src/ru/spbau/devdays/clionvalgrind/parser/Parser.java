@@ -1,6 +1,5 @@
 package ru.spbau.devdays.clionvalgrind.parser;
 
-import com.google.protobuf.TextFormat;
 import ru.spbau.devdays.clionvalgrind.parser.errors.Error;
 import ru.spbau.devdays.clionvalgrind.parser.errors.ErrorNode;
 import ru.spbau.devdays.clionvalgrind.parser.errors.ErrorsHolder;

@@ -9,7 +9,6 @@ import com.intellij.execution.process.ProcessHandler;
 import com.intellij.execution.process.ProcessTerminatedListener;
 import com.intellij.execution.runners.ExecutionEnvironment;
 import com.intellij.execution.ui.ConsoleView;
-import com.intellij.icons.AllIcons;
 import com.intellij.openapi.project.Project;
 import org.jetbrains.annotations.NotNull;
 import ru.spbau.devdays.clionvalgrind.results.ValgrindRunConsoleBuilder;
@@ -21,7 +20,6 @@ public class ValgrindCommandLineState extends CommandLineState {
 
     private GeneralCommandLine commandLine;
 
-    // todo: can change?
     private String pathToXml;
 
     public ValgrindCommandLineState(ExecutionEnvironment executionEnvironment, String pathToXml, GeneralCommandLine commandLine)
@@ -40,8 +38,8 @@ public class ValgrindCommandLineState extends CommandLineState {
         ColoredProcessHandler process = new ColoredProcessHandler(commandLine);
         console.attachToProcess(process);
 
-        setConsoleBuilder(new ValgrindRunConsoleBuilder(project, console, pathToXml));
-        ProcessTerminatedListener.attach(process);
+        setConsoleBuilder(new ValgrindRunConsoleBuilder(project, process, pathToXml));
+        ProcessTerminatedListener.attach(process, project);
         return process;
     }
 }

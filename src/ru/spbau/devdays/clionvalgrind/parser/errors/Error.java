@@ -7,8 +7,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Error {
-    // todo: add proper toString
-    // todo: доступ к errorList?
 
     private String kind;
     private List<ErrorNode> errorNodeList = new ArrayList<ErrorNode>();

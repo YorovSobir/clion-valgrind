@@ -23,7 +23,6 @@ public class ValgrindRunConfigurationType implements ConfigurationType {
 
     @Override
     public Icon getIcon() {
-//        return new ImageIcon("../resources/icon.jpg");
         return AllIcons.General.Information;
     }
 

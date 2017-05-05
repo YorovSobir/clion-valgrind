@@ -34,7 +34,6 @@ public class ErrorNode {
     public DefaultMutableTreeNode getTree() {
         DefaultMutableTreeNode root = new DefaultMutableTreeNode(what);
         StringBuilder sb = new StringBuilder();
-//        EditorFactory editorFactory = new EditorFactoryImpl(EditorActionManager.getInstance());
 
         for (int i = 0; i < funcList.size(); i++) {
             sb.append(funcList.get(i));
