@@ -60,9 +60,6 @@ public class ValgrindConsoleView implements ConsoleView {
 
     private EditorHyperlinkSupport hyperlinks;
 
-//    private static final int CONSOLE_COLUMN_MIN_WIDTH = 300;
-//    private static final int ERRORS_COLUMN_MIN_WIDTH  = 300;
-
     public ValgrindConsoleView(@NotNull final Project project, @NotNull ConsoleView console, @NotNull String pathToXml) {
         this.project = project;
         this.console = console;
